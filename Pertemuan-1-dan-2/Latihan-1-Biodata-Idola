@@ -1,0 +1,12 @@
+# Buatlah Biodata Idola
+
+print("Biodata Idola\n")
+
+nama = "Nama        : Muhammad Wais Alqorni"
+hobi = "\nHobi        : Membaca Buku"
+tinggi_badan = "\nTinggi Badan: 178 cm"
+berat_badan = "\nBerat Badan : 70 kg"
+jenis_kelamin = "\nJ. Kelamin  : Laki-laki"
+suku = "\nSuku Bangsa : Lampung"
+telpon = "\nNo. Telepon : 0812xxxx75"
+print(nama + hobi + tinggi_badan + berat_badan + jenis_kelamin + suku + telpon)
