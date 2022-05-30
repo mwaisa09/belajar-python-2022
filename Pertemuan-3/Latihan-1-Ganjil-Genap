@@ -1,0 +1,8 @@
+# Program yang bisa mendeteksi bilangan itu ganjil atau genap
+
+bil = int(input("Masukan Bilangan :"))
+
+if bil % 2 == 0:
+    print("%i Merupakan Bilangan Genap" % bil)
+else:
+    print("%i Merupakan Bilangan Ganjil" % bil)
