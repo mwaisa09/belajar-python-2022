@@ -1,0 +1,17 @@
+# Program untuk membaca input user dan melaporkan warnanya
+
+cahaya = int(input('Panjangan gelombang cahaya (nm) :'))
+if 380 <= cahaya < 450:
+    print('Spektrum yang terlihat adalah Violet')
+elif 450 <= cahaya < 495:
+    print('Sepktrum yang terlihat adalah Blue')
+elif 495 <= cahaya < 570:
+    print('Sepktrum yang terlihat adalah Green')
+elif 570 <= cahaya < 590:
+    print('Sepktrum yang terlihat adalah Yellow')
+elif 590 <= cahaya < 620:
+    print('Sepktrum yang terlihat adalah Orange')
+elif 620 <= cahaya <= 750:
+    print('Sepktrum yang terlihat adalah Red')
+else:
+    print('Input kamu diluar spektrum yang diketahui!')
