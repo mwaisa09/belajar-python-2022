@@ -1,0 +1,21 @@
+# Program untuk menamai jumlah sisi sesuai dengan bangun datar
+
+answer = int(input('Masukkan jumlah sisi :'))
+if answer == 1:
+    print('Itu adalah bentuk lingkaran')
+elif answer == 3:
+    print('Itu adalah bentuk segitiga')
+elif answer == 4:
+    print('Itu adalah bentuk persegi')
+elif answer == 5:
+    print('Itu adalah bentuk pentagon')
+elif answer == 6:
+    print('Itu adalah bentuk heksagon') 
+elif answer == 7:
+    print('Itu adalah bentuk heptagon')
+elif answer == 8:
+    print('Itu adalah bentuk oktagon')
+elif answer == 9:
+    print('Itu adalah bentuk poligon')
+else:
+    print('Maaf, ilmu saya belum cukup')
