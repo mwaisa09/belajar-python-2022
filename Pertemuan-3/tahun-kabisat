@@ -1,0 +1,13 @@
+# Program untuk membaca apakah tahun tersebut merupakan tahun kabisat
+
+print("\n Program untuk mengecek tahun kabisat\n")
+
+tahun = int(input('Masukkan tahun yang ingin dicek :'))
+if tahun %400 == 0:
+    print('Tahun %i merupakan tahun kabisat' % tahun)
+elif tahun %100 == 0:
+    print('Tahun %i bukan merupakan tahun kabisat' % tahun)
+elif tahun %4 == 0:
+    print('Tahun %i merupakan tahun kabisat' % tahun)
+elif tahun %4 != 0:
+    print('Tahun %i bukan merupakan tahun kabisat ' % tahun)
