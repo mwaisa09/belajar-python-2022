@@ -1,0 +1,17 @@
+jumlah = 0
+umur = 0
+harga = 0
+while umur != '':
+    umur = input("Masukkan Umur :")
+    if umur != '':
+        umur = int(umur)
+        if umur < 2:
+            harga = 0
+        elif 3 <= umur <= 12:
+            harga = 14
+        elif umur > 65:
+            harga = 18
+        else:
+            harga = 23
+        jumlah += harga # jumlah = jumlah + harga
+print("jadi, total biaya masuknya adalah : $", jumlah)
